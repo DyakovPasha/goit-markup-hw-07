@@ -1,0 +1,12 @@
+.header {
+    border-bottom: 1px solid $color-border;
+}
+.header__conteiner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+}
