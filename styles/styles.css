@@ -17,9 +17,9 @@
     
 
 
-}
 
-}
+
+
 
 .current{
     position: relative;
@@ -580,7 +580,7 @@ textarea:focus-within {
           
 }
 
-.form-input:hover + .icon-modal, .form-input:focus+.icon-modal, .form-input:active+.icon-modal {
+.form-input:hover+ .icon-modal, .form-input:focus+.icon-modal, .form-input:active+.icon-modal {
     fill: var(--color-acent);
 }
 
