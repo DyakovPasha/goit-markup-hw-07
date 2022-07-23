@@ -1,13 +1,9 @@
 .engage{
-    padding-top: 94px;
-    padding-bottom: 94px;
+  @extend %section;
 }
 
-.engage__conteiner{
-    width: 1200px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
+.engage__container{
+    @extend %container;
 }
 
 .engage__caption{

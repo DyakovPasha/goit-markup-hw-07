@@ -1,12 +1,10 @@
 .features{
-    padding-top: 94px;
+    @extend %section;
+    padding-bottom: 0px; 
 }
 
 .features__container{
-    width: 1200px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
+@extend %container;
 }
 
 .features__list{
